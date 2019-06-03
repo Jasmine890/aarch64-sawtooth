@@ -30,3 +30,6 @@ root@sawtooth-intkey-tp-python# intkey load -f batches.intkey --url http://rest-
 batches: 11 batch/sec: 141.7800162868952
 
 
+sudo docker-compose -f sawtooth-0000.yaml up
+sudo docker-compose -f sawtooth-0000.yaml down -v
+
